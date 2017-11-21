@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+The command 'git init' creates a git repository.
+A hidden folder '.git' will be created which contains a lot of meta data 
+on the repository (history, commit messages, diffs, etc... they must be stored somewhere... maybe even information as to what branch this is)
+
+
+**************************************
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It functions as a buffer between the repository and the working directory.
+You can have multiple changes in your working directory, which are not logically connected.
+
+The staging area gives you the possibility of only adding logically fitting changes to it.
+Once you commit only these changes will be part of the commit, thus everyone is happy.
