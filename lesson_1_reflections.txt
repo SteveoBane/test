@@ -1,0 +1,55 @@
+Looking at the diffs did not help much. 
+Another more advanced tool would be very helpful at this point!
+
+
+It was very complicated and not as easy as it is with some of the cooler tools!
+
+
+
+**********************************************
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+See which changes lead to bugs.
+See what changed.
+See what other people changed.
+Find bugs in code.
+See what got fixed.
+See how to write programs that can be easily refactored.
+
+
+**********************************************
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Forces you to think about when a commit makes sense.
+Files are not saved at inapropriate state (not compiling, not finished, etc...)
+Might commit too much or not enough.
+
+
+**********************************************
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+
+If changes in one file are not important/related for/to another file, there is no need.
+Software development often affects multiple files. So a commit is often spread across a lot of files or even projects.
+Needles to say, it is important to enable a developer to save the state of multiple files in one commit!
+
+
+**********************************************
+How can you use the commands git log and git diff to view the history of files?
+
+git  log: shows a list of all commits, including date and time as well as the commit message and the name of the commitee
+
+git diff id_1 id_2: shows the differences between two commits. which files were edited, which lines were added or removed
+
+this all can be done offline if the repository is on your machine
+
+
+**********************************************
+How might using version control make you more confident to make changes that could break something?
+
+I can go back to any previous commit. So if I was to break something, not all is lost.
+
+I can more or less easily find out, when and where a bug was introduced and isolated the responsible commit.
+
+I can go forward to the most recent commit as well, if I found the problem and solve it there...
