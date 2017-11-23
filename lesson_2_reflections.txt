@@ -13,3 +13,11 @@ You can have multiple changes in your working directory, which are not logically
 
 The staging area gives you the possibility of only adding logically fitting changes to it.
 Once you commit only these changes will be part of the commit, thus everyone is happy.
+
+
+**************************************
+How can you use the staging area to make sure you have one commit per logical change?
+
+By only adding manipulated files from the working directory to the staging area that belong to the same logical change.
+Command: git add 'file name'
+To se the current status of things: git status
