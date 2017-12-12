@@ -21,3 +21,36 @@ How can you use the staging area to make sure you have one commit per logical ch
 By only adding manipulated files from the working directory to the staging area that belong to the same logical change.
 Command: git add 'file name'
 To se the current status of things: git status
+
+**************************************
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If a new feature is developed.
+If several people develop different features.
+
+Safety reasons: experimets, refactoring and so on.
+
+To keep logically distant changes separated.
+
+
+****************************************
+How do the diagrams help you visualize the branch structure?
+
+They show the parent child relationship between individual commits.
+They show which commits are unreachable unless one stores the commit id
+or creates a new branch and checks out that branch...
+
+
+****************************************
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Auto merge:
++ Quick 
++ Easy to use
++ Not that many mistakes can be made
+
+- Defensive conflict solver, leads to a lot of merge conlficts
+
+Manual merge:
+- error prone to fix merge conlficts all alone
+- takes a long time to detect all merge conflicts, if you catch all of them anyway...
