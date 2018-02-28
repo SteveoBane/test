@@ -32,6 +32,8 @@ Safety reasons: experimets, refactoring and so on.
 
 To keep logically distant changes separated.
 
+some change
+
 
 ****************************************
 How do the diagrams help you visualize the branch structure?
